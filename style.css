@@ -1,0 +1,322 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ---------------------------------
+            NAVBAR
+--------------------------------- */
+            /*  NAVBAR-TOP  */
+
+#navtop .social-link i img{
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#navtop .social-link i img:hover{
+    background-color: rgba(238,224,208);
+    border-radius: 50px;
+    transform: scale(1.2);
+}
+
+#navtop .icons i img{
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#navtop .icons i img:hover{
+    background-color: rgba(238,224,208);
+    border-radius: 50px;
+    transform: scale(1.2);
+}
+
+            /* SECOND NAVBAR */
+#nav-bar{ 
+    position: sticky; 
+    top: 0; 
+    z-index: 10; 
+}
+.navbar-nav li{ 
+    padding: 0 10px;
+}
+.navbar-nav li a{ 
+    color: black; 
+    font-weight: 600; 
+    float: left; 
+    text-align: left;
+}
+.navbar-nav li a:hover{ 
+    color: rgb(128, 0, 0); 
+    transform: scale(1.3); 
+    background: white; 
+    border-radius: 5px;
+}
+#nav-bar .nav-link{ 
+    transition: 0.5s ease;
+}
+.navbar-toggler{ 
+    outline: none; 
+}
+
+/* Boutons inscription et connexion*/
+.bout .bt1:hover{ 
+    background: white; 
+    border: 1px solid rgb(128, 0, 0); 
+    color: rgb(128, 0, 0);
+    animation: contact-btn 5s linear infinite;
+}
+.bout .bt1{
+    background-color: rgb(128, 0, 0);
+}
+.bout .bt2:hover{ 
+    background: white; 
+    border: 1px solid rgb(128, 0, 0); 
+    color: rgb(128, 0, 0);
+    animation: contact-btn 5s linear infinite;
+}
+.bout .bt2{
+    background-color: rgb(128, 0, 0);
+    border: #00ff6a;
+
+}
+/* ---------------------------------
+            SECTION HOME
+--------------------------------- */
+#home{ 
+    width: 100%; 
+    height: 550px; 
+    background-image: url("images/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 80%;
+}
+
+#home .content{
+    padding-top: 130px; 
+    margin-left: 55px;
+}
+#home .content h1{ font-size: 50px;}
+#home #btn1 button{
+    width: 150px;
+    height: 32px;
+    background: rgba(238,224,208);
+    border-radius: 5px;
+    border: 1px solid black;
+    letter-spacing: 3px;
+    transition: 0.5s ease;
+}
+#home #btn1 button:hover{
+    color: white;
+    background: rgb(128, 0, 0);
+    transform: translateY(10px);
+}
+
+/* ---------------------------------
+            SECTION CARD 1
+--------------------------------- */
+#card1 #btn2 button{
+    width: 130px;
+    height: 33px;
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid black;
+    transition: 0.5s ease;
+   }
+#card1 #btn2 button:hover{
+    background-color: rgba(238,224,208);
+    color: rgb(128, 0, 0);
+    border: rgb(128, 0, 0);
+    transform: scale(1.2);
+    
+   }
+
+/* ---------------------------------
+            SECTION CARD 2
+--------------------------------- */
+#tpc{
+    box-shadow: 0 0 5px black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#tpc:hover{
+    transform: translateY(-10px);
+}
+#card2 #btn2 button{
+    width: 120px;
+    height: 30px;
+    background: rgba(238,224,208);
+    border-radius: 5px;
+    border: 1px solid green;
+    transition: 0.5s ease;
+}
+#card2 #btn2 button:hover{
+    color: rgb(128, 0, 0);
+    background: white;
+    transform: scale(1.1);
+}
+
+/* ---------------------------------
+            SECTION CARD 3
+--------------------------------- */
+#c{
+    box-shadow: 0 0 5px rgb(128, 0, 0);
+}
+#btn3 button{
+    width: 150px;
+    height: 30px;
+    background: rgba(238,224,208);
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: 0.5s ease;
+}
+#btn3 button:hover{
+    transform: translateY(-7px);
+    color: gray;
+    border: 1px solid rgb(128, 0, 0);
+    font-weight: bold;
+}
+
+/* ---------------------------------
+            SECTION ABOUT
+--------------------------------- */
+#btn4 button{
+    width: 150px;
+    height: 30px;
+    background: rgba(238,224,208);
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: 0.5s ease;
+}
+#btn4 button:hover{
+    background-color: rgb(128, 0, 0);
+    color: white;
+    transform: translateX(10px);
+}
+
+/* ---------------------------------
+            SECTION CONTACT
+--------------------------------- */
+.contact .container{ 
+    width: 100%; 
+    background: white;
+    background: linear-gradient(90deg, white 80%, rgba(238,224,208) 20%); 
+    border-radius: 10px;
+}
+.heading6{ 
+    font-size: 30px; 
+    margin-top: 70px;
+}
+.heading6 span{ 
+    color: rgb(128, 0, 0);
+}
+.contact p{ 
+    font-weight: bold; 
+    font-size: 13px; 
+    color: black;
+}
+.contact input{ 
+    width: 360px; 
+    border: 1px solid green
+}
+#contact-btn{ 
+    width: 150px; 
+    height: 36px; 
+    border: none; 
+    background: rgba(238,224,208); 
+    color: rgb(128, 0, 0); 
+    font-weight: bold;
+    margin-top: 30px; 
+    cursor: pointer; 
+    border-radius: 5px;
+    transform-style: preserve-3d;
+}
+#contact-btn:hover{
+    animation: contact-btn 5s linear infinite;
+}
+@keyframes contact-btn{
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+#contact-btn{
+    transform: perspective(200px) rotateY(30deg);
+}
+
+#col{ 
+    width: 40%; 
+    background: gray; 
+    margin-top: 78px; 
+    border-radius: 5px;
+}
+.contact h1{ 
+    font-size: 25px; 
+    margin-top: 10px; 
+    margin-left: 10px;
+}
+.contact #col p{ 
+    font-size: 15px; 
+    color: white; 
+    margin-left: 13px; 
+    padding-top: 30px;
+}
+
+@media screen and (max-width:766px){
+    .contact .container{
+        background: rgba(238,224,208);
+        }
+    #col{
+        width: 100%;
+        }
+    #contact-btn{
+        background: white;
+    }
+}
+
+/* ---------------------------------
+            SECTION FOOTER
+--------------------------------- */
+#footer{
+    width: 100%;
+    background: #eee0d0;
+}
+.icons i{
+    border-radius: 50%;
+    color: rgba(238,224,208);
+    font-size: 20px;
+    cursor: pointer;
+    gap: 10px;
+}
+#footer a{
+    text-decoration: none;
+}
+
+
+
+/* ---------------------------------
+        FORMULAIRE CONNEXION
+--------------------------------- */
+#connexion{ background: linear-gradient(to left, white, rgba(238,224,208));}
+
+
+
+@media screen and (max-width: 768px){
+    #connexion .num1{
+        order: 2;
+        padding-top: 15px;
+    }
+
+    #connexion .num2{
+        order: 1;
+    }
+}
+
+
+
+/* ---------------------------------
+        FORMULAIRE INSCRIPTION
+--------------------------------- */
+#inscription{ background: linear-gradient(to left, white, rgba(238,224,208));}
+
